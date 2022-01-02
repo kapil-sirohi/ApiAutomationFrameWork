@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-02T04:19:38 UTC" name="Default suite" finished-at="2022-01-02T04:19:42 UTC" duration-ms="4044">
+    <groups>
+    </groups>
+    <test started-at="2022-01-02T04:19:38 UTC" name="Default test" finished-at="2022-01-02T04:19:42 UTC" duration-ms="4044">
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:37 UTC" name="preSetup" finished-at="2022-01-02T04:19:38 UTC" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:38 UTC" name="setUp" finished-at="2022-01-02T04:19:39 UTC" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddProduct()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:39 UTC" name="verifyAddProduct" finished-at="2022-01-02T04:19:40 UTC" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProduct -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:40 UTC" name="postTestCheck" finished-at="2022-01-02T04:19:40 UTC" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddProduct status=SUCCESS method=ProductTest.verifyAddProduct()[pri:0, instance:tests.ProductTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method signature="verifyAddProductAsObjectPayLoad()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:40 UTC" name="verifyAddProductAsObjectPayLoad" finished-at="2022-01-02T04:19:41 UTC" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductAsObjectPayLoad -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:41 UTC" name="postTestCheck" finished-at="2022-01-02T04:19:41 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddProductAsObjectPayLoad status=SUCCESS method=ProductTest.verifyAddProductAsObjectPayLoad()[pri:0, instance:tests.ProductTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method signature="verifyGetRequest()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:41 UTC" name="verifyGetRequest" finished-at="2022-01-02T04:19:41 UTC" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetRequest -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:41 UTC" name="postTestCheck" finished-at="2022-01-02T04:19:41 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetRequest status=SUCCESS method=ProductTest.verifyGetRequest()[pri:0, instance:tests.ProductTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ProductTest@1df82230]" started-at="2022-01-02T04:19:41 UTC" name="cleanUp" finished-at="2022-01-02T04:19:42 UTC" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
